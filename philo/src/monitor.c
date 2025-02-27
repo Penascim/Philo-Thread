@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   monitor.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aldantas <aldantas@student.42.rio>         +#+  +:+       +#+        */
+/*   By: penascim <penascim@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/31 15:50:03 by aldantas          #+#    #+#             */
-/*   Updated: 2024/06/04 23:21:56 by aldantas         ###   ########.fr       */
+/*   Created: 2024/05/31 15:50:03 by penascim          #+#    #+#             */
+/*   Updated: 2024/06/04 17:21:26 by penascim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "../inc/philo.h"
 

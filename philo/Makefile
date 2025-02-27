@@ -13,7 +13,6 @@ G = \033[32m
 R = \033[31m
 Y = \033[33m
 blink = \033[6;7;1;3m
-image = inc/image.txt
 
 all: $(NAME)
 
@@ -22,7 +21,6 @@ $(NAME): $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 	@echo "-------------------------------------------------------------------------------------"
 	@echo "$(blink)$(G) ✅ $(NAME) successfully compiled $(Reset)"
-	@cat $(image)
 
 val:
 	valgrind --leak-check=full --track-origins=yes ./philo 3 300 100 100 3

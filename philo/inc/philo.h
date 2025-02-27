@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aldantas <aldantas@student.42.rio>         +#+  +:+       +#+        */
+/*   By: penascim <penascim@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/11 17:02:41 by aldantas          #+#    #+#             */
-/*   Updated: 2024/06/04 23:21:32 by aldantas         ###   ########.fr       */
+/*   Created: 2024/02/11 17:02:41 by penascim          #+#    #+#             */
+/*   Updated: 2024/06/04 17:59:45 by penascim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ typedef struct s_fork
 /* each philosopher */
 typedef struct s_philo
 {
-	int16_t		id;
+	int			id;
 	bool		is_full;
 	int			nbr_eats;
 	int			last_eat;

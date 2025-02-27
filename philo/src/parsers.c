@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   parsers.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aldantas <aldantas@student.42.rio>         +#+  +:+       +#+        */
+/*   By: penascim <penascim@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/22 20:08:36 by aldantas          #+#    #+#             */
-/*   Updated: 2024/06/04 23:22:13 by aldantas         ###   ########.fr       */
+/*   Created: 2024/05/22 20:08:36 by penascim          #+#    #+#             */
+/*   Updated: 2024/06/04 17:22:14 by penascim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,11 @@ static int	check_input_digit(char **args)
 
 int	check_args(char **av)
 {
+	if (av[0][0] == '0')
+	{
+		printf(RED"parse error: incorrect input"RESET);
+		return (-1);
+	}
 	av++;
 	if (check_input_digit(av) || check_limits(av))
 	{
